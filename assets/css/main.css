@@ -1764,7 +1764,9 @@ input, select, textarea {
 				width: 48px;
 				height: 48px;
 			}
-
+		.image.faC {
+			width: 15%;
+		}
 		.image.fit {
 			display: block;
 			width: 100%;
@@ -1773,6 +1775,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
+
 			margin: 0 0 2em 0;
 		}
 
@@ -2250,7 +2253,9 @@ input, select, textarea {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
 			}
-
+			#main > section.one2{
+				background-color: rgb(246, 253, 253);
+			}
 			#main > section.two {
 				background-color: #f5fafa;
 			}
@@ -2630,4 +2635,13 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+
+/* Addition */
+	.lang_features{
+		font-size: 0.75em;
+	}
+	.p_distance{
+		margin:0;
+		padding:0;
 	}
